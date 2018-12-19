@@ -46,7 +46,7 @@ public class Calculadora {
                     System.out.println("El resultado es: " + s);
                     break;
             }
-        }while(op!=3);
+        }while(op!=4);
     }
 
 }
