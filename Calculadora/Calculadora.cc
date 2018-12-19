@@ -13,7 +13,8 @@ public class Calculadora {
             "************\n"+
             "[1] SUMAR\n"+
             "[2] RESTAR\n"+
-            "[3] SALIR\n"+
+	    "[3] MULTIPLICAR\n"+
+            "[4] SALIR\n"+
             "Ingresa una opcion:");
 
             op = Integer.parseInt(sc.nextLine());
@@ -34,6 +35,14 @@ public class Calculadora {
                     System.out.println("Ingrese numero 2");
                     n2 = Integer.parseInt(sc.nextLine());
                     s=n1+n2;
+                    System.out.println("El resultado es: " + s);
+                    break;
+		case 3:
+                    System.out.println("Ingrese numero 1");
+                    n1 = Integer.parseInt(sc.nextLine());
+                    System.out.println("Ingrese numero 2");
+                    n2 = Integer.parseInt(sc.nextLine());
+                    s=n1*n2;
                     System.out.println("El resultado es: " + s);
                     break;
             }
